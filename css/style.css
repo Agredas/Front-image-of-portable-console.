@@ -1,0 +1,187 @@
+.base{
+  width: 19.44em;
+  height: 38.5em;
+  display: flex;
+  margin: auto;
+  margin-top: 2.5em;
+  flex-direction: column;
+  border-radius: 7% 7% 7% 7%;
+  background-color: blue;
+}
+
+.cabeza{
+  background-color: green;
+  width: 19.44em;
+  height: 18em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7% 7% 0 0;
+}
+
+.parteSup{
+  height: 2.3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 7% 7% 0 0;
+}
+
+.circle1{
+  background-color: black;
+  width: 1.55em;
+  height: 1.55em;
+  border-radius: 50% 50% 50% 50%;
+  margin: 0.35em 0.9em;
+}
+
+.circle2{
+  background-color: darkblue;
+  width: 1.3em;
+  height: 1.3em;
+  border-radius: 50% 50% 50% 50%;
+  margin: auto;
+}
+
+.parteMed{
+  height: 14.22em;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lateralExt{
+  width: 2em;
+  background-color: pink;
+}
+
+.parteMedCen{
+  width: 15em;
+  height: 13.7em;
+  border: 4px solid darkred;
+}
+
+.parteInt{
+  background-color: rebeccapurple;
+  height: 13.7em;
+  width: 15em;
+  display: flex;
+  flex-direction: column;
+}
+
+.parteIntSup{
+  height: 1em;
+  width: 15em;
+  background-color: black;
+}
+
+.parteIntMed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 11em;
+}
+
+.lateralInt{
+  width: 1em;
+  height: 12em;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.parteIntInf{
+  height: 1.7em;
+  width: 15em;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  height: 1.8em;
+  width: 9em;
+  margin-top: 0.4em;
+  margin-left: 0.5em;
+}
+
+.parteInf{
+  height: 2.3em;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.circle4{
+  background-color: darkblue;
+  width: 1.3em;
+  height: 1.3em;
+  border-radius: 50% 50% 50% 50%;
+  margin: 0.35em 0.9em;
+}
+
+.union{
+  width: 19.44em;
+  height: 2.5em;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.hijo1{
+  background-color: orange;
+  width: 1.9em;
+  height: 2.5em;
+  border-radius: 50% 0 0 50%;
+}
+
+.raya{
+  background-color: red;
+  width: 0.15em;
+  height: 2.5em;
+}
+ 
+.hijo2{
+  background-color: papayawhip;
+  width: 7.41em;
+  height: 2.5em;
+}
+
+.hijo3{
+  background-color: orange;
+  width: 6.11em;
+  height: 2.5em;
+}
+
+.hijo4{
+  background-color: papayawhip;
+  width: 1.55em;
+  height: 2.5em;
+}
+
+.hijo5{
+  background-color: orange;
+  width: 1.9em;
+  border-radius: 0% 50% 50% 0%;
+  height: 2.5em;
+}
+
+/* .fondoUnion{
+  background-color: paleturquoise;
+
+  width: 19.44em;
+  height: 0.5em;
+  display:inline-block
+} */
+
+
+
+
+.cuerpo{
+ background-color: grey;
+ width: 19.44em;
+ height: 18em;
+ border-radius: 0 0 7% 7%;
+ display: flex;
+}
