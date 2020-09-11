@@ -6,7 +6,6 @@
   margin-top: 2.5em;
   flex-direction: column;
   border-radius: 7% 7% 7% 7%;
-  background-color: blue;
 }
 
 .cabeza{
@@ -44,7 +43,7 @@
 
 .parteMed{
   height: 13.4em;
-  background-color: orange;
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -98,15 +97,11 @@
 }
 
 .logo{
-  height: 1.8em;
-  width: 9em;
   margin-top: 0.4em;
-  margin-left: 0.5em;
 }
 
 .parteInf{
   height: 2.3em;
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -123,57 +118,68 @@
 .union{
   width: 19.44em;
   height: 2.5em;
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.fondoUnion{
+  width: 19.44em;
+  height: 1.5em;
+  background-color: palegoldenrod;
+  margin-top: 1.1em;
+} 
+
+.parteMedia{
+  position: absolute;
+  width: 19.44em;
+  height: 1.5em;
   display: flex;
   flex-direction: row;
 }
 
-
 .hijo1{
   background-color: orange;
   width: 1.9em;
-  height: 2.5em;
+  height: 2.4em;
   border-radius: 50% 0 0 50%;
+  border-bottom: 0.1em solid black;
 }
 
 .raya{
   background-color: red;
   width: 0.15em;
-  height: 2.5em;
+  height: 2.4em;
+  border-bottom: 0.1em solid black;
 }
  
 .hijo2{
   background-color: papayawhip;
   width: 7.41em;
-  height: 2.5em;
+  height: 2.4em;
+  border-bottom: 0.1em solid black;
 }
 
 .hijo3{
   background-color: orange;
   width: 6.11em;
-  height: 2.5em;
+  height: 2.4em;
+  border-bottom: 0.1em solid black;
 }
 
 .hijo4{
   background-color: papayawhip;
   width: 1.55em;
-  height: 2.5em;
+  height: 2.4em;
+  border-bottom: 0.1em solid black;
 }
 
 .hijo5{
   background-color: orange;
   width: 1.9em;
   border-radius: 0% 50% 50% 0%;
-  height: 2.5em;
+  height: 2.4em;
+  border-bottom: 0.1em solid black;
 }
-
-/* .fondoUnion{
-  background-color: paleturquoise;
-
-  width: 19.44em;
-  height: 0.5em;
-  display:inline-block
-} */
 
 
 
@@ -184,4 +190,112 @@
  height: 18em;
  border-radius: 0 0 7% 7%;
  display: flex;
+ flex-direction: column;
+}
+
+ .primeraParte{
+  background-color: goldenrod;
+  width: 19.44em;
+  height:1em;
+}
+
+.segundaParte{
+  background-color: greenyellow;
+  width: 19.44em;
+  height: 1.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.segundaParte1{
+  background-color: navajowhite;
+  width: 8.7em;
+}
+
+.segundaParte2{
+  background-color: blue;
+  width: 1.5em;
+  border-radius: 50% 50% 50% 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.botonLuz{
+  background-color: grey;
+  height: 1.1em;
+  width: 1.1em;
+  margin-top: 0.2em;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.segundaParte3{
+  background-color: navajowhite;
+  width: 8.8em;
+}
+
+.segundaParte4{
+  background-color: gainsboro;
+  width:0.8em;
+}
+
+.primeraLuz{
+  background-color: green;
+  height: 0.75em;
+}
+
+.terceraParte{
+  height: 0.8em;
+  background-color: aquamarine;
+  width: 19.44em;
+  display: flex;
+  flex-direction: row;
+}
+
+.huecoTerceraParte{
+  width: 18.64em;
+  height: 0.8em;
+  background-color: palevioletred;
+}
+.segundaLuz{
+  width: 0.8em;
+  height: 0.8em;
+  background: green;
+}
+
+.cuartaParte{
+  background-color: lightskyblue;
+  width: 19.44em;
+  height: 6.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.cuartaParte1{
+
+}
+
+
+.cuartaParte2{
+  width: 15em;
+}
+
+
+
+
+.quintaParte{
+  background-color: yellowgreen;
+  width: 19.44em;
+  height: 2.3em;
+}
+
+.sextaParte{
+  background-color: peachpuff;
+  width: 19.44em;
+  height: 1.7em;
+}
+
+.septimaParte{
+  background-color: sienna;
+  width: 19.44em;
+  height: 2.5em;
 }
