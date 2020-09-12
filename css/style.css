@@ -209,12 +209,13 @@
 
 .segundaParte1{
   background-color: navajowhite;
-  width: 8.7em;
+  width: 9.1em;
 }
 
 .segundaParte2{
   background-color: blue;
-  width: 1.5em;
+  width: 1.3em;
+  height: 1.3em;
   border-radius: 50% 50% 50% 50%;
   display: flex;
   justify-content: center;
@@ -222,8 +223,8 @@
 
 .botonLuz{
   background-color: grey;
-  height: 1.1em;
-  width: 1.1em;
+  height: 0.9em;
+  width: 0.9em;
   margin-top: 0.2em;
   border-radius: 50% 50% 50% 50%;
 }
@@ -271,14 +272,155 @@
 }
 
 .cuartaParte1{
-
+  background-color: red;
+  width: 1.5em;
+  height: 6.5em;
 }
-
 
 .cuartaParte2{
-  width: 15em;
+  width: 6.5em;
+  height: 6.5em;
+  background-color: navajowhite;
+  border-radius: 50% 50% 50% 50%;
+  display: flex;
+  justify-content: center;
 }
 
+.circleFlechas1{
+  background-color: red;
+  width: 5.7em;
+  height: 5.7em;
+  margin-top: 0.4em;
+  border-radius: 50% 50% 50% 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.flechas{
+  width: 4em;
+  height: 4em;
+  margin-top: 0.8em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+  ".      arriba        ."
+  "izquierda centro derecha"
+  ".      abajo      .";
+}
+
+.arriba{
+  grid-area: arriba;
+  background-color: green;
+  border-radius: 20% 20% 0 0;
+}
+
+.derecha{
+  grid-area: derecha;
+  background-color: green;
+  border-radius: 0 20% 20% 0;
+}
+
+.izquierda{
+  grid-area: izquierda;
+  background-color: green;
+  border-radius: 20% 0 0 20%;
+}
+
+.abajo{
+  grid-area: abajo;
+  background-color: green;
+  border-radius: 0 0 20% 20%;
+}
+
+.centro{
+  grid-area: centro;
+  background-color: green;
+}
+
+.centroCircle{
+  height: 1.3em;
+  width: 1.3em;
+  background-color: black;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.cuartaParte3{
+  background-color:lightcoral;
+  width: 3em;
+  height: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 6em;
+}
+
+.primeraFila{
+  display: flex;
+  justify-content: space-around;
+  width: 3em;
+  height: 0.5em;
+  background-color: green;
+}
+
+.sonido1{
+  width: 0.3em;
+  height: 0.3em;
+  background-color: black;
+  border-radius: 50% 50% 50% 50%;
+  margin-top: 0.1em;
+  margin-left: 0.09em;
+}
+
+
+.cuartaParte4{
+  background-color: goldenrod;
+  width: 7em;
+  height: 6.5em;
+}
+
+.bordebotones{
+  margin-top: 1.5em;
+  background-color: aquamarine;
+  height: 3.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 13em 13em 13em 13em;
+  transform: rotate(-15deg);
+}
+
+.huecoBotones{
+  background-color: grey;
+  height: 2.7em;
+  width: 6.2em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 13em 13em 13em 13em;
+}
+
+.boton{
+  text-align: center;
+  background-color: slateblue;
+  width: 2em;
+  height: 2em;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(15deg);
+}
+
+.letra_ab{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.cuartaParte5{
+    background-color: red;
+    width: 1.5em;
+    height: 6.5em;
+}
 
 
 
@@ -286,16 +428,146 @@
   background-color: yellowgreen;
   width: 19.44em;
   height: 2.3em;
+  display: flex;
+  flex-direction: row;
+}
+
+.quintaParte1{
+  width: 8em;
+  background-color: white;
+  height: 2.3em;
+}
+
+.quintaParte2{
+  background-color: palegoldenrod;
+  width: 3em;
+  height: 2.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.segundaFila{
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+  width: 3em;
+  height: 0.5em;
+  background-color: snow;
+}
+
+.sonido2{
+  width: 0.3em;
+  margin-top: 0.2em;
+  height: 0.3em;
+  background-color: black;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.terceraFila{
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    width: 3em;
+    height: 0.5em;
+    background-color: salmon;
+}
+
+.sonido3{
+  width: 0.3em;
+  margin-top: 0.2em;
+  height: 0.3em;
+  background-color: black;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.cuartaFila{
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+  width: 3em;
+  height: 0.5em;
+  background-color: lightsalmon;
+}
+
+.sonido4{
+width: 0.3em;
+margin-top: 0.2em;
+height: 0.3em;
+background-color: black;
+border-radius: 50% 50% 50% 50%;
 }
 
 .sextaParte{
   background-color: peachpuff;
   width: 19.44em;
   height: 1.7em;
-}
+} 
 
-.septimaParte{
+
+
+
+
+
+ .septimaParte{
   background-color: sienna;
   width: 19.44em;
-  height: 2.5em;
+  height: 2.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bordeSelect{
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 50% 50% 50% 50%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+}
+
+.huecoSelect{
+  background-color: green;
+  height: 1.7em;
+  width: 1.7em;
+  margin-top: 0.2em;
+  border-radius: 50% 50% 50% 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.botonSelect{
+  background-color: grey;
+  height: 0.9em;
+  width: 0.9em;
+  border-radius: 50% 50% 50% 50%;
+  margin-top: 0.4em;
+}
+
+.bordeStart{
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 50% 50% 50% 50%;
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+}
+
+.huecoStart{
+  background-color: green;
+  height: 1.7em;
+  width: 1.7em;
+  margin-top: 0.2em;
+  border-radius: 50% 50% 50% 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.botonStart{
+  background-color: grey;
+  height: 0.9em;
+  width: 0.9em;
+  border-radius: 50% 50% 50% 50%;
+  margin-top: 0.4em;
 }
