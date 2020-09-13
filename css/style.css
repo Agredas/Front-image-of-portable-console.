@@ -146,38 +146,38 @@
 }
 
 .hijo1{
-  background-color: orange;
+  background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 1.9em;
   height: 2.5em;
   border-radius: 50% 0 0 50%;
 }
 
 .raya{
-  background-color: red;
+  background-color: #3C3C3C;
   width: 0.15em;
   height: 2.5em;
 }
  
 .hijo2{
-  background-color: papayawhip;
+  background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 7.41em;
   height: 2.5em;
 }
 
 .hijo3{
-  background-color: orange;
+  background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 6.11em;
   height: 2.5em;
 }
 
 .hijo4{
-  background-color: papayawhip;
+  background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 1.55em;
   height: 2.5em;
 }
 
 .hijo5{
-  background-color: orange;
+  background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 1.9em;
   border-radius: 0% 50% 50% 0%;
   height: 2.5em;
@@ -216,7 +216,7 @@
 }
 
 .segundaParte2{
-  background-color: blue;
+  background: linear-gradient(160deg, rgba(60,60,60,100) 0%, rgba(245,245,245,1) 100%);
   width: 1.3em;
   height: 1.3em;
   border-radius: 50% 50% 50% 50%;
@@ -225,7 +225,8 @@
 }
 
 .botonLuz{
-  background-color: grey;
+  background-color: #6E6E6E;
+  border-right: 0.1em solid #3C3C3C;
   height: 0.9em;
   width: 0.9em;
   margin-top: 0.2em;
@@ -241,7 +242,7 @@
 }
 
 .primeraLuz{
-  background-color: green;
+  background-color: rgba(84,110,107,1);
   height: 0.75em;
 }
 
@@ -259,7 +260,7 @@
 .segundaLuz{
   width: 0.8em;
   height: 0.8em;
-  background: green;
+  background: rgba(84,110,107,1);
 }
 
 .cuartaParte{
@@ -308,37 +309,42 @@
 
 .arriba{
   grid-area: arriba;
-  background-color: green;
+  background-color: #8f8f8f;
   border-radius: 20% 20% 0 0;
+  border-right: 0.1em solid #3C3C3C;
 }
 
 .derecha{
   grid-area: derecha;
-  background-color: green;
+  background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
+  border-right: 0.1em solid #3C3C3C;
+
   border-radius: 0 20% 20% 0;
 }
 
 .izquierda{
   grid-area: izquierda;
-  background-color: green;
+  background-color: #8f8f8f;
+
   border-radius: 20% 0 0 20%;
 }
 
 .abajo{
   grid-area: abajo;
-  background-color: green;
+  background-color: #8f8f8f;
+  border-right: 0.1em solid #3C3C3C;
   border-radius: 0 0 20% 20%;
 }
 
 .centro{
   grid-area: centro;
-  background-color: green;
+  background-color: #8f8f8f;
 }
 
 .centroCircle{
   height: 1.3em;
   width: 1.3em;
-  background-color: black;
+  background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
   border-radius: 50% 50% 50% 50%;
 }
 
@@ -398,11 +404,12 @@
 
 .boton{
   text-align: center;
-  background-color: slateblue;
+  background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
   width: 2em;
   height: 2em;
   border-radius: 50% 50% 50% 50%;
   transform: rotate(15deg);
+  border-right: 0.1em solid #3C3C3C;
 }
 
 .letra_ab{
@@ -486,7 +493,6 @@ border-radius: 50% 50% 50% 50%;
 }
 
 .sextaParte{
-  background-color: peachpuff;
   width: 19.44em;
   height: 1.7em;
   display: flex;
@@ -496,19 +502,20 @@ border-radius: 50% 50% 50% 50%;
 } 
 
 .select{
+  color: #595959;
   font-size: 0.8em;
   margin-top: 0.5em;
   margin-right: 1em;
 }
 
 .start{
+  color: #595959;
   font-size: 0.8em;
   margin-top: 0.5em;
   margin-left: 1em;
 }
 
  .septimaParte{
-  background-color: sienna;
   width: 19.44em;
   height: 2.2em;
   display: flex;
@@ -520,14 +527,14 @@ border-radius: 50% 50% 50% 50%;
   height: 2.2em;
   width: 2.2em;
   border-radius: 50% 50% 50% 50%;
-  background-color: purple;
+  background: linear-gradient(160deg, rgba(60,60,60,1) 0%, rgba(212,212,212,0.01) 100%);
   display: flex;
   justify-content: center;
   margin-right: 1em;
 }
 
 .huecoSelect{
-  background-color: green;
+  background-color:#C4C4C4;
   height: 1.7em;
   width: 1.7em;
   margin-top: 0.2em;
@@ -537,7 +544,8 @@ border-radius: 50% 50% 50% 50%;
 }
 
 .botonSelect{
-  background-color: grey;
+  background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
+  border-right: 0.1em solid #3C3C3C;
   height: 0.9em;
   width: 0.9em;
   border-radius: 50% 50% 50% 50%;
@@ -550,11 +558,12 @@ border-radius: 50% 50% 50% 50%;
   border-radius: 50% 50% 50% 50%;
   display: flex;
   justify-content: center;
-  background-color: purple;
+  background: linear-gradient(160deg, rgba(60,60,60,1) 0%, rgba(212,212,212,0.01) 100%);
+
 }
 
 .huecoStart{
-  background-color: green;
+  background-color:#C4C4C4;
   height: 1.7em;
   width: 1.7em;
   margin-top: 0.2em;
@@ -564,7 +573,8 @@ border-radius: 50% 50% 50% 50%;
 }
 
 .botonStart{
-  background-color: grey;
+  background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
+  border-right: 0.1em solid #3C3C3C;
   height: 0.9em;
   width: 0.9em;
   border-radius: 50% 50% 50% 50%;
