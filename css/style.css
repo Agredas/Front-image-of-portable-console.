@@ -1,4 +1,4 @@
-.base{
+.structure{
   width: 19.44em;
   height: 38.5em;
   display: flex;
@@ -9,7 +9,7 @@
 
 }
 
-.cabeza{
+.head{
   background-color: #CAC8C7;
   width: 19.44em;
   height: 18em;
@@ -22,7 +22,7 @@
   background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
 }
 
-.parteSup{
+.upperPart{
   height: 2.3em;
   display: flex;
   flex-direction: row;
@@ -49,24 +49,24 @@
   margin: auto;
 }
 
-.parteMed{
+.middlePart{
   height: 13.4em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.lateralExt{
+.outerSide{
   width: 2em;
 }
 
-.parteMedCen{
+.centMidPart{
   width: 15em;
   height: 12.9em;
   border: 4px solid rgba(60,60,60,100);
 }
 
-.parteInt{
+.inside{
   background: linear-gradient(160deg, rgba(84,110,107,1) 0%, rgba(175,174,172,1) 100%);
   height: 12.9em;
   width: 15em;
@@ -74,27 +74,27 @@
   flex-direction: column;
 }
 
-.parteIntSup{
+.upperInside{
   height: 1em;
   width: 15em;
   background-color: black;
 }
 
-.parteIntMed{
+.insideMidPart{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 10em;
 }
 
-.lateralInt{
+.insideLat{
   width: 1em;
   height: 10em;
   background-color: black;
   justify-content: space-between;
 }
 
-.parteIntInf{
+.lowerInt{
   height: 1.9em;
   width: 15em;
   background-color: black;
@@ -106,7 +106,7 @@
   margin-top: 0.4em;
 }
 
-.parteInf{
+.bottomPart{
   height: 2.3em;
   display: flex;
   flex-direction: row;
@@ -129,7 +129,7 @@
   flex-direction: column;
 }
 
-.fondoUnion{
+.backgroundUnion{
   border-right: 0.2em solid #515151;
   width: 19.44em;
   height: 1.5em;
@@ -137,59 +137,72 @@
   margin-top: 1.1em;
 } 
 
-.parteMedia{
+.midPart{
   position: absolute;
-  width: 19.44em;
+  width: 19.64em;
   height: 1.5em;
   display: flex;
   flex-direction: row;
 }
 
-.hijo1{
+.child1{
   background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 1.9em;
   height: 2.5em;
   border-radius: 50% 0 0 50%;
 }
 
-.raya{
+.line{
   background-color: #3C3C3C;
   width: 0.15em;
   height: 2.5em;
 }
  
-.hijo2{
+.child2{
   background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 7.41em;
   height: 2.5em;
 }
 
-.hijo3{
+.child3{
   background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 6.11em;
   height: 2.5em;
 }
 
-.hijo4{
+.child4{
   background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 1.55em;
   height: 2.5em;
 }
 
-.hijo5{
-  background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
+.child5{
   width: 1.9em;
-  border-radius: 0% 50% 50% 0%;
   height: 2.5em;
-  
+  display: flex;
+  flex-direction: column;
+  border-radius: 0% 50% 50% 0%;
+  background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
+  border-right: 0.2em solid #515151;
+}
+
+.child5_1{
+  border-radius: 0% 70% 0% 0%;
+  width: 1.9em;
+  height: 1.25em;
+  background-color: #989797;
+}
+
+.child5_2{
+  width: 1.9em;
+  height: 1.25em;
+  border-radius: 0 0 50% 0;
+  background: linear-gradient(182deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
 }
 
 
-
-
-.cuerpo{
+.halfBody{
   border-right: 0.2em solid #515151;
-  background: rgb(152,151,151);
   background: linear-gradient(160deg, rgba(152,151,151,1) 0%, rgba(230,230,230,1) 100%);
   width: 19.44em;
   height: 18em;
@@ -199,23 +212,23 @@
   box-shadow: 30px 30px 42px 0px rgba(0,0,0,0.63);
 }
 
- .primeraParte{
+ .first{
   width: 19.44em;
   height:1em;
 }
 
-.segundaParte{
+.second{
   width: 19.44em;
   height: 1.5em;
   display: flex;
   flex-direction: row;
 }
 
-.segundaParte1{
+.second1{
   width: 9.1em;
 }
 
-.segundaParte2{
+.second2{
   background: linear-gradient(160deg, rgba(60,60,60,100) 0%, rgba(245,245,245,1) 100%);
   width: 1.3em;
   height: 1.3em;
@@ -224,7 +237,7 @@
   justify-content: center;
 }
 
-.botonLuz{
+.lightButton{
   background-color: #6E6E6E;
   border-right: 0.1em solid #3C3C3C;
   height: 0.9em;
@@ -233,49 +246,49 @@
   border-radius: 50% 50% 50% 50%;
 }
 
-.segundaParte3{
+.second3{
   width: 8.8em;
 }
 
-.segundaParte4{
+.second4{
   width:0.8em;
 }
 
-.primeraLuz{
+.firstLight{
   background-color: rgba(84,110,107,1);
   height: 0.75em;
 }
 
-.terceraParte{
+.third{
   height: 0.8em;
   width: 19.44em;
   display: flex;
   flex-direction: row;
 }
 
-.huecoTerceraParte{
+.holeThird{
   width: 18.64em;
   height: 0.8em;
 }
-.segundaLuz{
+.secondLight{
   width: 0.8em;
   height: 0.8em;
   background: rgba(84,110,107,1);
 }
 
-.cuartaParte{
+.fourth{
   width: 19.44em;
   height: 6.5em;
   display: flex;
   flex-direction: row;
 }
 
-.cuartaParte1{
+.fourth1{
   width: 1.5em;
   height: 6.5em;
 }
 
-.cuartaParte2{
+.fourth2{
   width: 6.5em;
   height: 6.5em;
   background: linear-gradient(160deg, rgba(60,60,60,100) 0%, rgba(245,245,245,1) 100%);
@@ -284,7 +297,7 @@
   justify-content: center;
 }
 
-.circleFlechas1{
+.circleArrows{
   background-color: #B9B9B9;
   width: 5.7em;
   height: 5.7em;
@@ -294,7 +307,7 @@
   justify-content: center;
 }
 
-.flechas{
+.arrows{
   width: 4em;
   height: 4em;
   margin-top: 0.8em;
@@ -302,53 +315,53 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-  ". arriba ."
-  "izquierda centro derecha"
-  " .abajo .";
+  ". upArrow ."
+  "leftArrow centerArrow rightArrow"
+  " . botArrow .";
 }
 
-.arriba{
-  grid-area: arriba;
+.upArrow{
+  grid-area: upArrow;
   background-color: #8f8f8f;
   border-radius: 20% 20% 0 0;
   border-right: 0.1em solid #3C3C3C;
 }
 
-.derecha{
-  grid-area: derecha;
+.rightArrow{
+  grid-area: rightArrow;
   background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
   border-right: 0.1em solid #3C3C3C;
 
   border-radius: 0 20% 20% 0;
 }
 
-.izquierda{
-  grid-area: izquierda;
+.leftArrow{
+  grid-area: leftArrow;
   background-color: #8f8f8f;
 
   border-radius: 20% 0 0 20%;
 }
 
-.abajo{
-  grid-area: abajo;
+.botArrow{
+  grid-area: botArrow;
   background-color: #8f8f8f;
   border-right: 0.1em solid #3C3C3C;
   border-radius: 0 0 20% 20%;
 }
 
-.centro{
-  grid-area: centro;
+.centerArrow{
+  grid-area: centerArrow;
   background-color: #8f8f8f;
 }
 
-.centroCircle{
+.centerCircle{
   height: 1.3em;
   width: 1.3em;
   background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
   border-radius: 50% 50% 50% 50%;
 }
 
-.cuartaParte3{
+.fourth3{
   width: 3em;
   height: 1em;
   display: flex;
@@ -357,14 +370,14 @@
   margin-top: 6em;
 }
 
-.primeraFila{
+.firstRow{
   display: flex;
   justify-content: space-around;
   width: 3em;
   height: 0.5em;
 }
 
-.sonido1{
+.sound1{
   width: 0.3em;
   height: 0.3em;
   background-color: black;
@@ -374,12 +387,12 @@
 }
 
 
-.cuartaParte4{
+.fourth4{
   width: 7em;
   height: 6.5em;
 }
 
-.bordebotones{
+.borderButton{
   margin-top: 1.5em;
   background: linear-gradient(160deg, rgba(60,60,60,100) 0%, rgba(245,245,245,1) 100%);
   height: 3.5em;
@@ -391,7 +404,7 @@
   transform: rotate(-15deg);
 }
 
-.huecoBotones{
+.holeButtons{
   background-color: #B9B9B9;
   height: 2.7em;
   width: 6.2em;
@@ -402,7 +415,7 @@
   border-radius: 13em 13em 13em 13em;
 }
 
-.boton{
+.button{
   text-align: center;
   background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
   width: 2em;
@@ -412,31 +425,32 @@
   border-right: 0.1em solid #3C3C3C;
 }
 
-.letra_ab{
+.ab{
+  color: #595959;
   margin-top: 4px;
   margin-bottom: 5px;
   font-family: 'Bebas Neue', cursive;
   font-size: 1.3em;
 }
 
-.cuartaParte5{
+.fourth5{
     width: 1.5em;
     height: 6.5em;
 }
 
-.quintaParte{
+.fifth{
   width: 19.44em;
   height: 2.3em;
   display: flex;
   flex-direction: row;
 }
 
-.quintaParte1{
+.fifth1{
   width: 8em;
   height: 2.3em;
 }
 
-.quintaParte2{
+.fifth2{
   width: 3em;
   height: 2.3em;
   display: flex;
@@ -444,7 +458,7 @@
   justify-content: space-around;
 }
 
-.segundaFila{
+.secondRow{
   display: flex;
   direction: row;
   justify-content: space-around;
@@ -452,7 +466,7 @@
   height: 0.5em;
 }
 
-.sonido2{
+.sound2{
   width: 0.3em;
   margin-top: 0.2em;
   height: 0.3em;
@@ -460,7 +474,7 @@
   border-radius: 50% 50% 50% 50%;
 }
 
-.terceraFila{
+.thirdRow{
   display: flex;
   direction: row;
   justify-content: space-around;
@@ -468,7 +482,7 @@
   height: 0.5em;
 }
 
-.sonido3{
+.sound3{
   width: 0.3em;
   margin-top: 0.2em;
   height: 0.3em;
@@ -476,7 +490,7 @@
   border-radius: 50% 50% 50% 50%;
 }
 
-.cuartaFila{
+.fourthRow{
   display: flex;
   direction: row;
   justify-content: space-around;
@@ -484,7 +498,7 @@
   height: 0.5em;
 }
 
-.sonido4{
+.sound4{
 width: 0.3em;
 margin-top: 0.2em;
 height: 0.3em;
@@ -492,7 +506,7 @@ background-color: black;
 border-radius: 50% 50% 50% 50%;
 }
 
-.sextaParte{
+.sixth{
   width: 19.44em;
   height: 1.7em;
   display: flex;
@@ -515,7 +529,7 @@ border-radius: 50% 50% 50% 50%;
   margin-left: 1em;
 }
 
- .septimaParte{
+ .seventh{
   width: 19.44em;
   height: 2.2em;
   display: flex;
@@ -523,7 +537,7 @@ border-radius: 50% 50% 50% 50%;
   justify-content: center;
 }
 
-.bordeSelect{
+.borderSelect{
   height: 2.2em;
   width: 2.2em;
   border-radius: 50% 50% 50% 50%;
@@ -533,7 +547,7 @@ border-radius: 50% 50% 50% 50%;
   margin-right: 1em;
 }
 
-.huecoSelect{
+.holeSelect{
   background-color:#C4C4C4;
   height: 1.7em;
   width: 1.7em;
@@ -543,7 +557,7 @@ border-radius: 50% 50% 50% 50%;
   justify-content: center;
 }
 
-.botonSelect{
+.buttonSelect{
   background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
   border-right: 0.1em solid #3C3C3C;
   height: 0.9em;
@@ -552,7 +566,7 @@ border-radius: 50% 50% 50% 50%;
   margin-top: 0.4em;
 }
 
-.bordeStart{
+.borderStart{
   height: 2.2em;
   width: 2.2em;
   border-radius: 50% 50% 50% 50%;
@@ -562,7 +576,7 @@ border-radius: 50% 50% 50% 50%;
 
 }
 
-.huecoStart{
+.holeStart{
   background-color:#C4C4C4;
   height: 1.7em;
   width: 1.7em;
@@ -572,7 +586,7 @@ border-radius: 50% 50% 50% 50%;
   justify-content: center;
 }
 
-.botonStart{
+.buttonStart{
   background: linear-gradient(90deg, rgba(143,143,143,1) 0%, rgba(224,224,224,0.01) 100%);
   border-right: 0.1em solid #3C3C3C;
   height: 0.9em;
