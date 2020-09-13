@@ -1,12 +1,14 @@
+body{
+  font-family: 'Bebas Neue', cursive;
+}
+
 .structure{
   width: 19.44em;
   height: 38.5em;
   display: flex;
   margin: auto;
-  margin-top: 2.5em;
   flex-direction: column;
   border-radius: 7% 7% 7% 7%;
-
 }
 
 .head{
@@ -244,6 +246,7 @@
   width: 0.9em;
   margin-top: 0.2em;
   border-radius: 50% 50% 50% 50%;
+  cursor: pointer;
 }
 
 .second3{
